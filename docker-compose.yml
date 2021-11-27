@@ -12,8 +12,8 @@ services:
       - PUID=1000
       - PGID=1000
       - TZ=Etc/UTC
-      - SERVERURL=vpn.sign-on.co.za
-      - PEERS=3
+      - SERVERURL=$SERVERURL
+      - PEERS=$PEERS
     volumes:
       - /opt/wireguard/config:/config
       - /lib/modules:/lib/modules
