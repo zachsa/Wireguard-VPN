@@ -3,5 +3,5 @@ Testing VPN setup
 
 ### Deploy
 ```sh
-docker compose up -d --build
+docker-compose up -d --build
 ```
