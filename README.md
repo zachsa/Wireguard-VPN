@@ -1,5 +1,5 @@
 # vpn
-Testing VPN setup
+Wireguard VPN
 
 ### Deploy
 ```sh
